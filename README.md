@@ -21,17 +21,7 @@
 
 Android 14+ 系统下，如果使用 `READ_MEDIA_IMAGES`，系统可能触发部分照片访问机制，建议用户授予完整权限或使用 SAF 方式手动选择目录。
 
-## 🧱 项目结构
-LiveWallpaper/
-├── app/
-│ ├── src/main/java/com/qiexi/livewallpaper/
-│ │ ├── MainActivity.java // 权限申请 & 启动壁纸设置
-│ │ └── Service/MyWallpaperService.java // 动态壁纸逻辑核心
-│ ├── res/drawable/ // 默认壁纸备用资源
-│ └── AndroidManifest.xml // 权限与服务声明
-├── gradle/
-├── build.gradle
-└── settings.gradle
+
 ## 🛠️ 运行要求
 
 - Android Studio Giraffe 以上（建议 Hedgehog/Koala）
