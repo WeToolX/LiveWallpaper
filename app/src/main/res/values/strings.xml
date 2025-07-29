@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LiveWallpaper</string>
+    <string name="wallpaper_desc">动态壁纸：左右滑动切换壁纸</string>
+</resources>
